@@ -1,0 +1,10 @@
+<h2> All Posts </h2>
+
+{{#each posts as |post|}}
+
+  <h3 class="index">{{post.title}}</h3>
+  <p> {{post.body}} </p>
+  <p> By: {{post.user.name}} </p>
+  <br>
+  <br>
+{{/each}}
